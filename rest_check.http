@@ -35,6 +35,19 @@ POST http://localhost:8000/api/app2/func_view/ HTTP/1.1
 content-type: application/json
 
 {
-    "name": "sample3",
+    "name": "sample4",
     "valid": false
 }
+
+###
+GET http://localhost:8000/api/app2/class_view/ HTTP/1.1
+
+###
+POST http://localhost:8000/api/app2/class_view/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "sample4",
+    "valid": false
+}
+
